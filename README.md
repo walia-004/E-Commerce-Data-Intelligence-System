@@ -126,9 +126,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
 
 ### Run the Notebook
 ```bash
-git clone https://github.com/YOUR_USERNAME/shopsmart-analytics.git
+git clone https://github.com/walia-004/E-Commerce-Data-Intelligence-System.git
 cd shopsmart-analytics
-jupyter notebook INFO911_project.ipynb
+jupyter notebook Data_mining.ipynb
 ```
 
 > Make sure `final_ecommerce_dataset_16000.csv` is in the same directory as the notebook, or update the file path in **Section 2, Step 1**.
