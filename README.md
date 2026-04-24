@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Data Intelligence System
+# 🛒 ShopSmart Analytics: E-Commerce Data Intelligence System
 
 > Predicting customer purchase behavior through end-to-end data mining — from raw behavioral logs to production-ready ML models.
 
@@ -12,12 +12,23 @@ This project was developed as part of **INFO911: Data Mining and Knowledge Disco
 
 ---
 
+## 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-green?logo=pandas)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+
+---
+
 ## 📂 Repository Structure
 
 ```
 shopsmart-analytics/
 │
-├── Data_mining.ipynb            # Main Jupyter Notebook (all sections)
+├── INFO911_project.ipynb            # Main Jupyter Notebook (all sections)
 ├── final_ecommerce_dataset_16000.csv # Dataset (16,000 user records)
 └── README.md
 ```
@@ -106,14 +117,21 @@ Four supervised models trained to predict `purchase`:
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Getting Started
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Wrangling-green?logo=pandas)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-blue)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+### Prerequisites
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn scipy jupyter
+```
+
+### Run the Notebook
+```bash
+git clone https://github.com/YOUR_USERNAME/shopsmart-analytics.git
+cd shopsmart-analytics
+jupyter notebook INFO911_project.ipynb
+```
+
+> Make sure `final_ecommerce_dataset_16000.csv` is in the same directory as the notebook, or update the file path in **Section 2, Step 1**.
 
 ---
 
