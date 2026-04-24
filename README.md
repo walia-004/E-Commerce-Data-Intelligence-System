@@ -1,4 +1,4 @@
-# 🛒 ShopSmart Analytics: E-Commerce Data Intelligence System
+# 🛒 E-Commerce Data Intelligence System
 
 > Predicting customer purchase behavior through end-to-end data mining — from raw behavioral logs to production-ready ML models.
 
